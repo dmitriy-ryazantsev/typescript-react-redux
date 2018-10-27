@@ -1,0 +1,45 @@
+{
+    "name": "react-redux-typescript",
+    "version": "1.0.0",
+    "description": "Boilerplate for React + Redux project using TypeScript and Webpack",
+    "main": "./src/main.tsx",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dmitrii-riazantsev/react-redux-typescript.git"
+    },
+    "keywords": [
+        "React",
+        "Redux",
+        "TypeScript",
+        "Webpack"
+    ],
+    "author": "Riazantsev Dmitrii",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/dmitrii-riazantsev/react-redux-typescript/issues"
+    },
+    "homepage": "https://github.com/dmitrii-riazantsev/react-redux-typescript#readme",
+    "scripts": {
+        "build": "webpack --mode=development",
+        "release": "webpack --mode=production --progress",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "react": "^16.6.0",
+        "react-dom": "^16.6.0"
+    },
+    "devDependencies": {
+        "@types/node": "^10.12.0",
+        "@types/react": "^16.4.18",
+        "@types/react-dom": "^16.0.9",
+        "@types/webpack": "^4.4.17",
+        "awesome-typescript-loader": "^5.2.1",
+        "npm": "^6.4.1",
+        "progress-bar-webpack-plugin": "^1.11.0",
+        "source-map-loader": "^0.2.4",
+        "ts-node": "^7.0.1",
+        "typescript": "^3.1.3",
+        "webpack": "^4.23.0",
+        "webpack-cli": "^3.1.2"
+    }
+}
