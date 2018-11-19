@@ -5,7 +5,7 @@
     "main": "./src/main.tsx",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/dmitrii-riazantsev/react-redux-typescript.git"
+        "url": "git+https://github.com/dmitriy-ryazantsev/react-redux-typescript.git"
     },
     "keywords": [
         "React",
@@ -16,9 +16,9 @@
     "author": "Riazantsev Dmitrii",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/dmitrii-riazantsev/react-redux-typescript/issues"
+        "url": "https://github.com/dmitriy-ryazantsev/react-redux-typescript/issues"
     },
-    "homepage": "https://github.com/dmitrii-riazantsev/react-redux-typescript#readme",
+    "homepage": "https://github.com/dmitriy-ryazantsev/react-redux-typescript#readme",
     "scripts": {
         "build": "webpack --mode=development",
         "release": "webpack --mode=production --progress",
@@ -26,15 +26,18 @@
     },
     "dependencies": {
         "react": "^16.6.0",
-        "react-dom": "^16.6.0"
+        "react-dom": "^16.6.0",
+        "react-redux": "^5.1.0",
+        "redux": "^4.0.1"
     },
     "devDependencies": {
         "@types/node": "^10.12.0",
         "@types/react": "^16.4.18",
         "@types/react-dom": "^16.0.9",
+        "@types/react-redux": "^6.0.9",
+        "@types/redux-devtools": "^3.0.44",
         "@types/webpack": "^4.4.17",
         "awesome-typescript-loader": "^5.2.1",
-        "npm": "^6.4.1",
         "progress-bar-webpack-plugin": "^1.11.0",
         "source-map-loader": "^0.2.4",
         "ts-node": "^7.0.1",
