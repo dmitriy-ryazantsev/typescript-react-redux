@@ -8,7 +8,7 @@ jobs:
       - checkout
       - run:
           name: update-npm
-          command: 'sudo npm install -g npm@5'
+          command: 'sudo npm install -g npm@6.4.1'
       - restore_cache:
           key: dependency-cache-{{ checksum "package.json" }}
       - run:
@@ -20,7 +20,7 @@ jobs:
             - ./node_modules
       - run:
           name: release
-          command: npm release
+          command: npm run release
 workflows:
   version: 2
   workflow:
