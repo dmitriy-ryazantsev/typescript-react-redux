@@ -7,8 +7,17 @@ jobs:
     steps:
       - checkout
       - run:
+          name: check-node-version
+          command: 'node --version'
+      - run:
+          name: check-npm-version
+          command: 'npm --version'
+      - run:
           name: update-npm
-          command: 'sudo npm install -g npm@6.4.1'
+          command: 'sudo npm install -g npm'
+      - run:
+          name: check-updated-npm-version
+          command: 'npm --version'
       - restore_cache:
           key: dependency-cache-{{ checksum "package.json" }}
       - run:
