@@ -14,7 +14,7 @@ jobs:
           command: 'npm --version'
       - run:
           name: update-npm
-          command: 'sudo npm install -g npm'
+          command: 'sudo npm install -g npm@5'
       - run:
           name: check-updated-npm-version
           command: 'npm --version'
